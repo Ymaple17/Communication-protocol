@@ -15,8 +15,8 @@ SPI总线通常有4根线：
 2.  **SPI为同步通信协议**:SPI在传输数据的同时传输时钟信号。主机根据将要交换的数据产生时钟脉冲信号，时钟信号通过时钟极性（Clock Polarity）和时钟相位（Clock Phase）规定两个SPI设备在何时进行数据交换和数据采样，实现两个SPI设备的同步传输。
 3.  **SPI为全双工通信协议**:SPI同时拥有TX（MOSI）数据通道和RX（MISO）数据通道，为全双工通信。
 
-<div style="width: 50%; text-align: center;">
-    <img src="picture/2.jpg" alt="SPI一主多从通信" width="100%" />
+<div align="center">
+    <img src="picture/2.jpg" alt="SPI一主多从通信" width="50%" />
     <br>
     SPI一主多从通信
 </div>
@@ -47,15 +47,15 @@ SPI有四种工作模式，由时钟极性（CPOL）和时钟相位（CPHA）决
 | Mode 2 | 1 | 0 | SCLK空闲时为高电平，下降沿采样数据，上升沿切换数据 |
 | Mode 3 | 1 | 1 | SCLK空闲时为高电平，上升沿采样数据，下降沿切换数据 |
 
-<div style="width: 50%; text-align: center;">
-    <img src="picture/1.jpg" alt="spi四种传输模式" width="100%" />
+<div align="center">
+    <img src="picture/1.jpg" alt="spi四种传输模式" width="50%" />
     <br>
     SPI四种传输模式
 </div>
 
 ## 设计框图
-<div style="width: 50%; text-align: center;">
-    <img src="picture/3.jpg" alt="SPI设计框图" width="100%" />
+<div align="center">
+    <img src="picture/3.jpg" alt="SPI设计框图" width="50%" />
     <br>
     SPI设计框图
 </div>
