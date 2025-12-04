@@ -15,7 +15,7 @@ UART通信通常只需要3根线：
 3.  **电平标准**: 常见的有TTL电平（0V/3.3V或5V）和RS-232电平（负逻辑，-15V~+15V）。
 
 <div align="center">
-    <img src="picture/1.png" alt="UART连接示意图" width="50%" />
+    <img src="picture/1.jpg" alt="UART连接示意图" width="50%" />
     <br>
     UART连接示意图
 </div>
@@ -30,7 +30,7 @@ UART通信通常只需要3根线：
 ## 数据帧格式与波特率
 UART通信依靠数据帧格式和波特率来保证传输的正确性。
 <div align="center">
-    <img src="picture/4.png" alt="UART波特率计算" width="50%" />
+    <img src="picture/4.jpg" alt="UART波特率计算" width="50%" />
     <br>
     UART波特率计算
 </div>
@@ -46,14 +46,14 @@ UART通信依靠数据帧格式和波特率来保证传输的正确性。
 波特率表示每秒传输的符号数（在UART中即为二进制位数）。常见的波特率有9600, 19200, 38400, 57600, 115200等。通信双方必须设置相同的波特率才能正常通信。
 
 <div align="center">
-    <img src="picture/2.png" alt="UART数据帧格式" width="80%" />
+    <img src="picture/2.jpg" alt="UART数据帧格式" width="80%" />
     <br>
     UART数据帧格式
 </div>
 
 ## 设计框图
 <div align="center">
-    <img src="picture/3.png" alt="UART设计框图" width="50%" />
+    <img src="picture/3.jpg" alt="UART设计框图" width="50%" />
     <br>
     UART设计框图
 </div>
